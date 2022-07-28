@@ -1,7 +1,7 @@
 DiagProfilerFactory::DiagProfilerFactory()
 PERF - TicksPerSecond = 10000000
-DIAG_PRF_SYMBOLPATH=SRV*c:\symbols*http://msdl.microsoft.com/download/symbols;D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\Debug;
-Set Symbol Path = SRV*c:\symbols*http://msdl.microsoft.com/download/symbols;D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\Debug;
+DIAG_PRF_SYMBOLPATH=SRV*c:\symbols*http://msdl.microsoft.com/download/symbols;D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\Debug;D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\SampleApps\CppCliApp\Debug;
+Set Symbol Path = SRV*c:\symbols*http://msdl.microsoft.com/download/symbols;D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\Debug;D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\SampleApps\CppCliApp\Debug;
 DiagProfilerFactory::QueryInterface
 DiagProfilerFactory::CreateInstance
 DiagProfiler::QueryInterface({8A8CC829-CCF2-49FE-BBAE-0F022228071A})
@@ -29,22 +29,22 @@ Got ICorProfilerInfo2
 SetEventMask()
 Successfully initialized profiling
 --- Listing all Threads - BEGIN --
-ThreadId = 0x33112
+ThreadId = 0x51840
    base priority = 8
    delta priority = 0
-ThreadId = 0x79460
+ThreadId = 0x68376
    base priority = 8
    delta priority = 0
-ThreadId = 0x39520
+ThreadId = 0x42132
    base priority = 8
    delta priority = 0
-ThreadId = 0x35752
+ThreadId = 0x72140
    base priority = 8
    delta priority = 0
-ThreadId = 0x15528
+ThreadId = 0x68116
    base priority = 8
    delta priority = 0
-ThreadId = 0x82528
+ThreadId = 0x3608
    base priority = 8
    delta priority = 0
 --- Listing all Threads - END --
@@ -52,339 +52,2337 @@ Will profile only managed threads
 Running without GUI
 Starting OnSample Timer
 Starting OnSample Timer : Creating Timer
-ThreadAssignedToOSThread m=72851280 os=33112
-ThreadAssignedToOSThread m=72593040 os=32480
+ThreadAssignedToOSThread m=61871848 os=51840
+ThreadAssignedToOSThread m=51560424 os=92856
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 112194
-PERF - ListProcessThreads Ticks = 113272
+PERF - GetStackTrace Ticks = 136637
+PERF - ListProcessThreads Ticks = 137713
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 109092
-PERF - ListProcessThreads Ticks = 110633
+PERF - GetStackTrace Ticks = 125509
+PERF - ListProcessThreads Ticks = 126954
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 130473
-PERF - ListProcessThreads Ticks = 132644
+PERF - GetStackTrace Ticks = 126142
+PERF - ListProcessThreads Ticks = 127522
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 127821
-PERF - ListProcessThreads Ticks = 129002
+PERF - GetStackTrace Ticks = 124583
+PERF - ListProcessThreads Ticks = 125386
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 128810
-PERF - ListProcessThreads Ticks = 130148
+PERF - GetStackTrace Ticks = 123098
+PERF - ListProcessThreads Ticks = 124057
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 131768
-PERF - ListProcessThreads Ticks = 133428
+PERF - GetStackTrace Ticks = 123245
+PERF - ListProcessThreads Ticks = 124450
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 128170
-PERF - ListProcessThreads Ticks = 129930
+PERF - GetStackTrace Ticks = 124313
+PERF - ListProcessThreads Ticks = 125244
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 128658
-PERF - ListProcessThreads Ticks = 129724
+PERF - GetStackTrace Ticks = 123609
+PERF - ListProcessThreads Ticks = 124556
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 131543
-PERF - ListProcessThreads Ticks = 132811
+PERF - GetStackTrace Ticks = 122639
+PERF - ListProcessThreads Ticks = 123894
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 133670
-PERF - ListProcessThreads Ticks = 135389
+PERF - GetStackTrace Ticks = 121777
+PERF - ListProcessThreads Ticks = 122687
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 134170
-PERF - ListProcessThreads Ticks = 135434
+PERF - GetStackTrace Ticks = 122215
+PERF - ListProcessThreads Ticks = 123726
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 133784
-PERF - ListProcessThreads Ticks = 135305
+PERF - GetStackTrace Ticks = 123990
+PERF - ListProcessThreads Ticks = 125045
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 124550
-PERF - ListProcessThreads Ticks = 125605
+PERF - GetStackTrace Ticks = 126706
+PERF - ListProcessThreads Ticks = 127933
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 122312
-PERF - ListProcessThreads Ticks = 123503
+PERF - GetStackTrace Ticks = 123795
+PERF - ListProcessThreads Ticks = 124778
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 111610
-PERF - ListProcessThreads Ticks = 113260
+PERF - GetStackTrace Ticks = 125707
+PERF - ListProcessThreads Ticks = 126961
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 127697
-PERF - ListProcessThreads Ticks = 129017
+PERF - GetStackTrace Ticks = 125810
+PERF - ListProcessThreads Ticks = 127248
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 114364
-PERF - ListProcessThreads Ticks = 115520
+PERF - GetStackTrace Ticks = 116900
+PERF - ListProcessThreads Ticks = 117939
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 116947
-PERF - ListProcessThreads Ticks = 118282
+PERF - GetStackTrace Ticks = 115667
+PERF - ListProcessThreads Ticks = 117001
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 124057
-PERF - ListProcessThreads Ticks = 125281
+PERF - GetStackTrace Ticks = 114769
+PERF - ListProcessThreads Ticks = 116349
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 140511
-PERF - ListProcessThreads Ticks = 141871
+PERF - GetStackTrace Ticks = 139620
+PERF - ListProcessThreads Ticks = 141758
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 127598
-PERF - ListProcessThreads Ticks = 128663
+PERF - GetStackTrace Ticks = 124178
+PERF - ListProcessThreads Ticks = 125580
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 204794
-PERF - ListProcessThreads Ticks = 206038
+PERF - GetStackTrace Ticks = 119298
+PERF - ListProcessThreads Ticks = 120305
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 125248
-PERF - ListProcessThreads Ticks = 126423
+PERF - GetStackTrace Ticks = 121861
+PERF - ListProcessThreads Ticks = 122837
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 114311
-PERF - ListProcessThreads Ticks = 115535
+PERF - GetStackTrace Ticks = 127203
+PERF - ListProcessThreads Ticks = 128115
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 111005
-PERF - ListProcessThreads Ticks = 112828
+PERF - GetStackTrace Ticks = 118919
+PERF - ListProcessThreads Ticks = 120270
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 144921
-PERF - ListProcessThreads Ticks = 146166
+PERF - GetStackTrace Ticks = 118844
+PERF - ListProcessThreads Ticks = 119970
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 114751
-PERF - ListProcessThreads Ticks = 115774
+PERF - GetStackTrace Ticks = 119217
+PERF - ListProcessThreads Ticks = 120342
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 108907
-PERF - ListProcessThreads Ticks = 109780
+PERF - GetStackTrace Ticks = 120778
+PERF - ListProcessThreads Ticks = 121663
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 114173
-PERF - ListProcessThreads Ticks = 115636
+PERF - GetStackTrace Ticks = 119980
+PERF - ListProcessThreads Ticks = 121007
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 118490
-PERF - ListProcessThreads Ticks = 120153
+PERF - GetStackTrace Ticks = 124636
+PERF - ListProcessThreads Ticks = 125483
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 138133
-PERF - ListProcessThreads Ticks = 139486
+PERF - GetStackTrace Ticks = 123008
+PERF - ListProcessThreads Ticks = 124170
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 110382
-PERF - ListProcessThreads Ticks = 111919
+PERF - GetStackTrace Ticks = 122295
+PERF - ListProcessThreads Ticks = 123067
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 134223
-PERF - ListProcessThreads Ticks = 136207
+PERF - GetStackTrace Ticks = 122860
+PERF - ListProcessThreads Ticks = 124527
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 170683
-PERF - ListProcessThreads Ticks = 172829
+PERF - GetStackTrace Ticks = 124608
+PERF - ListProcessThreads Ticks = 125692
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 129799
-PERF - ListProcessThreads Ticks = 131457
+PERF - GetStackTrace Ticks = 123991
+PERF - ListProcessThreads Ticks = 124887
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 111880
-PERF - ListProcessThreads Ticks = 112926
+PERF - GetStackTrace Ticks = 124971
+PERF - ListProcessThreads Ticks = 126264
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 111624
-PERF - ListProcessThreads Ticks = 113434
+PERF - GetStackTrace Ticks = 126489
+PERF - ListProcessThreads Ticks = 127505
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 123523
-PERF - ListProcessThreads Ticks = 124560
+PERF - GetStackTrace Ticks = 121093
+PERF - ListProcessThreads Ticks = 122144
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 121107
-PERF - ListProcessThreads Ticks = 122769
+PERF - GetStackTrace Ticks = 117346
+PERF - ListProcessThreads Ticks = 119021
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 129920
-PERF - ListProcessThreads Ticks = 130760
+PERF - GetStackTrace Ticks = 115053
+PERF - ListProcessThreads Ticks = 115994
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 119808
-PERF - ListProcessThreads Ticks = 122017
+PERF - GetStackTrace Ticks = 119127
+PERF - ListProcessThreads Ticks = 120778
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 117764
-PERF - ListProcessThreads Ticks = 118930
+PERF - GetStackTrace Ticks = 239544
+PERF - ListProcessThreads Ticks = 241889
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 117953
-PERF - ListProcessThreads Ticks = 119212
+PERF - GetStackTrace Ticks = 118135
+PERF - ListProcessThreads Ticks = 119925
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 111441
-PERF - ListProcessThreads Ticks = 113699
+PERF - GetStackTrace Ticks = 117270
+PERF - ListProcessThreads Ticks = 119225
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 110276
-PERF - ListProcessThreads Ticks = 111620
+PERF - GetStackTrace Ticks = 119159
+PERF - ListProcessThreads Ticks = 120468
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 114972
-PERF - ListProcessThreads Ticks = 116033
+PERF - GetStackTrace Ticks = 118809
+PERF - ListProcessThreads Ticks = 120271
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 319012
-PERF - ListProcessThreads Ticks = 321397
+PERF - GetStackTrace Ticks = 124192
+PERF - ListProcessThreads Ticks = 125372
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 112189
-PERF - ListProcessThreads Ticks = 113529
+PERF - GetStackTrace Ticks = 120052
+PERF - ListProcessThreads Ticks = 121315
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 250638
-PERF - ListProcessThreads Ticks = 253321
+PERF - GetStackTrace Ticks = 245879
+PERF - ListProcessThreads Ticks = 249925
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 145288
-PERF - ListProcessThreads Ticks = 147140
+PERF - GetStackTrace Ticks = 202893
+PERF - ListProcessThreads Ticks = 205513
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 119152
-PERF - ListProcessThreads Ticks = 120304
+PERF - GetStackTrace Ticks = 129359
+PERF - ListProcessThreads Ticks = 130579
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 109174
-PERF - ListProcessThreads Ticks = 110278
+PERF - GetStackTrace Ticks = 130184
+PERF - ListProcessThreads Ticks = 131204
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 119555
-PERF - ListProcessThreads Ticks = 120360
+PERF - GetStackTrace Ticks = 121426
+PERF - ListProcessThreads Ticks = 122657
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 123064
-PERF - ListProcessThreads Ticks = 124192
+PERF - GetStackTrace Ticks = 121475
+PERF - ListProcessThreads Ticks = 122747
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 116286
-PERF - ListProcessThreads Ticks = 117639
+PERF - GetStackTrace Ticks = 133418
+PERF - ListProcessThreads Ticks = 134794
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 123094
-PERF - ListProcessThreads Ticks = 124891
+PERF - GetStackTrace Ticks = 152791
+PERF - ListProcessThreads Ticks = 155541
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 114154
-PERF - ListProcessThreads Ticks = 115055
+PERF - GetStackTrace Ticks = 127226
+PERF - ListProcessThreads Ticks = 129548
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 136720
-PERF - ListProcessThreads Ticks = 137716
+PERF - GetStackTrace Ticks = 155614
+PERF - ListProcessThreads Ticks = 158384
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 110840
-PERF - ListProcessThreads Ticks = 111548
+PERF - GetStackTrace Ticks = 131878
+PERF - ListProcessThreads Ticks = 133150
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124049
+PERF - ListProcessThreads Ticks = 124811
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124728
+PERF - ListProcessThreads Ticks = 126321
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122569
+PERF - ListProcessThreads Ticks = 124036
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
 PERF - Overlapped call to OnSample
-PERF - GetStackTrace Ticks = 371424
-PERF - ListProcessThreads Ticks = 374562
+PERF - GetStackTrace Ticks = 353311
+PERF - ListProcessThreads Ticks = 356020
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 231473
+PERF - ListProcessThreads Ticks = 234343
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 189478
+PERF - ListProcessThreads Ticks = 191462
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 134139
+PERF - ListProcessThreads Ticks = 135364
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121877
+PERF - ListProcessThreads Ticks = 123676
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121750
+PERF - ListProcessThreads Ticks = 123816
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124916
+PERF - ListProcessThreads Ticks = 126022
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123227
+PERF - ListProcessThreads Ticks = 124508
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123889
+PERF - ListProcessThreads Ticks = 125462
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 131578
+PERF - ListProcessThreads Ticks = 133093
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125266
+PERF - ListProcessThreads Ticks = 126661
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125019
+PERF - ListProcessThreads Ticks = 126196
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127324
+PERF - ListProcessThreads Ticks = 128618
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117477
+PERF - ListProcessThreads Ticks = 118767
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 115307
+PERF - ListProcessThreads Ticks = 116567
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116404
+PERF - ListProcessThreads Ticks = 117837
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116967
+PERF - ListProcessThreads Ticks = 118004
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117919
+PERF - ListProcessThreads Ticks = 119057
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 118306
+PERF - ListProcessThreads Ticks = 119898
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117486
+PERF - ListProcessThreads Ticks = 118473
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117986
+PERF - ListProcessThreads Ticks = 118968
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 118819
+PERF - ListProcessThreads Ticks = 119660
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119740
+PERF - ListProcessThreads Ticks = 120904
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120196
+PERF - ListProcessThreads Ticks = 121557
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119113
+PERF - ListProcessThreads Ticks = 120495
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122267
+PERF - ListProcessThreads Ticks = 123190
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116547
+PERF - ListProcessThreads Ticks = 117511
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117460
+PERF - ListProcessThreads Ticks = 118448
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122417
+PERF - ListProcessThreads Ticks = 124043
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122103
+PERF - ListProcessThreads Ticks = 123240
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120006
+PERF - ListProcessThreads Ticks = 121652
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120287
+PERF - ListProcessThreads Ticks = 121507
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125873
+PERF - ListProcessThreads Ticks = 127558
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123851
+PERF - ListProcessThreads Ticks = 125215
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121791
+PERF - ListProcessThreads Ticks = 122886
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117019
+PERF - ListProcessThreads Ticks = 118660
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124761
+PERF - ListProcessThreads Ticks = 125946
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117070
+PERF - ListProcessThreads Ticks = 118262
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116028
+PERF - ListProcessThreads Ticks = 116931
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117333
+PERF - ListProcessThreads Ticks = 118332
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125008
+PERF - ListProcessThreads Ticks = 125867
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119445
+PERF - ListProcessThreads Ticks = 120623
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121960
+PERF - ListProcessThreads Ticks = 123876
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 118992
+PERF - ListProcessThreads Ticks = 120279
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 114869
+PERF - ListProcessThreads Ticks = 115909
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117174
+PERF - ListProcessThreads Ticks = 118331
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117794
+PERF - ListProcessThreads Ticks = 118801
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117472
+PERF - ListProcessThreads Ticks = 118944
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121074
+PERF - ListProcessThreads Ticks = 122291
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 136949
+PERF - ListProcessThreads Ticks = 138438
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 130818
+PERF - ListProcessThreads Ticks = 132046
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 160397
+PERF - ListProcessThreads Ticks = 163114
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 131403
+PERF - ListProcessThreads Ticks = 132798
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126320
+PERF - ListProcessThreads Ticks = 127367
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121264
+PERF - ListProcessThreads Ticks = 122386
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 134424
+PERF - ListProcessThreads Ticks = 135911
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122816
+PERF - ListProcessThreads Ticks = 124067
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
 PERF - Overlapped call to OnSample
-PERF - GetStackTrace Ticks = 332508
-PERF - ListProcessThreads Ticks = 335075
+PERF - GetStackTrace Ticks = 349577
+PERF - ListProcessThreads Ticks = 354992
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 118882
-PERF - ListProcessThreads Ticks = 119731
+PERF - GetStackTrace Ticks = 265348
+PERF - ListProcessThreads Ticks = 269060
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 111610
-PERF - ListProcessThreads Ticks = 112776
+PERF - GetStackTrace Ticks = 121199
+PERF - ListProcessThreads Ticks = 122370
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 116478
-PERF - ListProcessThreads Ticks = 117497
+PERF - GetStackTrace Ticks = 117128
+PERF - ListProcessThreads Ticks = 118377
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 103301
-PERF - ListProcessThreads Ticks = 104364
+PERF - Overlapped call to OnSample
+PERF - GetStackTrace Ticks = 357927
+PERF - ListProcessThreads Ticks = 361683
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
 g_frames.size()==12 g_nativeFrames.size()==29
-PERF - GetStackTrace Ticks = 137829
-PERF - ListProcessThreads Ticks = 140859
+PERF - GetStackTrace Ticks = 116398
+PERF - ListProcessThreads Ticks = 117388
 ----- BEGIN CALLSTACK -----
-ThreadId = 0x33112
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 160900
+PERF - ListProcessThreads Ticks = 163103
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120464
+PERF - ListProcessThreads Ticks = 121607
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119768
+PERF - ListProcessThreads Ticks = 120511
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+PERF - Overlapped call to OnSample
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 105015
+PERF - ListProcessThreads Ticks = 106394
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125411
+PERF - ListProcessThreads Ticks = 126794
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121907
+PERF - ListProcessThreads Ticks = 123221
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - Overlapped call to OnSample
+PERF - GetStackTrace Ticks = 361423
+PERF - ListProcessThreads Ticks = 364104
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 130191
+PERF - ListProcessThreads Ticks = 131336
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121445
+PERF - ListProcessThreads Ticks = 122547
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128551
+PERF - ListProcessThreads Ticks = 130054
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 239225
+PERF - ListProcessThreads Ticks = 243200
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 165349
+PERF - ListProcessThreads Ticks = 167559
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126364
+PERF - ListProcessThreads Ticks = 127266
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126237
+PERF - ListProcessThreads Ticks = 127318
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 172440
+PERF - ListProcessThreads Ticks = 175242
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126561
+PERF - ListProcessThreads Ticks = 127977
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122505
+PERF - ListProcessThreads Ticks = 123448
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125235
+PERF - ListProcessThreads Ticks = 126692
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128267
+PERF - ListProcessThreads Ticks = 129496
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124162
+PERF - ListProcessThreads Ticks = 125237
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 115790
+PERF - ListProcessThreads Ticks = 117406
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 165281
+PERF - ListProcessThreads Ticks = 168544
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 118214
+PERF - ListProcessThreads Ticks = 119628
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 114531
+PERF - ListProcessThreads Ticks = 116187
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 164179
+PERF - ListProcessThreads Ticks = 168108
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121273
+PERF - ListProcessThreads Ticks = 122648
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120189
+PERF - ListProcessThreads Ticks = 121488
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 168634
+PERF - ListProcessThreads Ticks = 172563
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120436
+PERF - ListProcessThreads Ticks = 122369
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 162425
+PERF - ListProcessThreads Ticks = 165394
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - Overlapped call to OnSample
+PERF - GetStackTrace Ticks = 367794
+PERF - ListProcessThreads Ticks = 371104
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127368
+PERF - ListProcessThreads Ticks = 128830
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 393784
+PERF - ListProcessThreads Ticks = 397245
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123948
+PERF - ListProcessThreads Ticks = 125063
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121165
+PERF - ListProcessThreads Ticks = 122656
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 129565
+PERF - ListProcessThreads Ticks = 130705
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124386
+PERF - ListProcessThreads Ticks = 125644
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119820
+PERF - ListProcessThreads Ticks = 121579
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 166053
+PERF - ListProcessThreads Ticks = 169759
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 164925
+PERF - ListProcessThreads Ticks = 168772
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 269768
+PERF - ListProcessThreads Ticks = 272386
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 221652
+PERF - ListProcessThreads Ticks = 223800
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121962
+PERF - ListProcessThreads Ticks = 123210
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 158980
+PERF - ListProcessThreads Ticks = 161895
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128783
+PERF - ListProcessThreads Ticks = 130232
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 358587
+PERF - ListProcessThreads Ticks = 361552
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127198
+PERF - ListProcessThreads Ticks = 128319
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 114994
+PERF - ListProcessThreads Ticks = 116873
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - Overlapped call to OnSample
+PERF - GetStackTrace Ticks = 354713
+PERF - ListProcessThreads Ticks = 358024
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116468
+PERF - ListProcessThreads Ticks = 117851
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119796
+PERF - ListProcessThreads Ticks = 124177
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 271165
+PERF - ListProcessThreads Ticks = 274246
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116085
+PERF - ListProcessThreads Ticks = 116846
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125106
+PERF - ListProcessThreads Ticks = 126224
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 118616
+PERF - ListProcessThreads Ticks = 120872
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 130636
+PERF - ListProcessThreads Ticks = 132311
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 352658
+PERF - ListProcessThreads Ticks = 355550
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127795
+PERF - ListProcessThreads Ticks = 129433
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119711
+PERF - ListProcessThreads Ticks = 121418
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 158360
+PERF - ListProcessThreads Ticks = 161143
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 160961
+PERF - ListProcessThreads Ticks = 163944
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122043
+PERF - ListProcessThreads Ticks = 123114
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 273014
+PERF - ListProcessThreads Ticks = 276079
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119576
+PERF - ListProcessThreads Ticks = 121383
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 342359
+PERF - ListProcessThreads Ticks = 345194
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123766
+PERF - ListProcessThreads Ticks = 125798
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120670
+PERF - ListProcessThreads Ticks = 122284
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122075
+PERF - ListProcessThreads Ticks = 123165
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 143005
+PERF - ListProcessThreads Ticks = 146637
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122889
+PERF - ListProcessThreads Ticks = 123997
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 135634
+PERF - ListProcessThreads Ticks = 136780
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 161744
+PERF - ListProcessThreads Ticks = 165463
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 164689
+PERF - ListProcessThreads Ticks = 167496
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124103
+PERF - ListProcessThreads Ticks = 125394
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - Overlapped call to OnSample
+PERF - GetStackTrace Ticks = 354537
+PERF - ListProcessThreads Ticks = 358643
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 115400
+PERF - ListProcessThreads Ticks = 116986
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 113779
+PERF - ListProcessThreads Ticks = 115910
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127668
+PERF - ListProcessThreads Ticks = 129208
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 114402
+PERF - ListProcessThreads Ticks = 116357
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 161021
+PERF - ListProcessThreads Ticks = 163814
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 115714
+PERF - ListProcessThreads Ticks = 116875
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128622
+PERF - ListProcessThreads Ticks = 129814
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119254
+PERF - ListProcessThreads Ticks = 120612
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121041
+PERF - ListProcessThreads Ticks = 122927
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 268760
+PERF - ListProcessThreads Ticks = 271825
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124398
+PERF - ListProcessThreads Ticks = 125476
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 320675
+PERF - ListProcessThreads Ticks = 323763
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125237
+PERF - ListProcessThreads Ticks = 126633
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119863
+PERF - ListProcessThreads Ticks = 120829
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123511
+PERF - ListProcessThreads Ticks = 125325
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121390
+PERF - ListProcessThreads Ticks = 122342
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 276534
+PERF - ListProcessThreads Ticks = 278726
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119194
+PERF - ListProcessThreads Ticks = 120032
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122983
+PERF - ListProcessThreads Ticks = 124567
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 263621
+PERF - ListProcessThreads Ticks = 266566
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 160874
+PERF - ListProcessThreads Ticks = 163670
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126349
+PERF - ListProcessThreads Ticks = 128064
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 148685
+PERF - ListProcessThreads Ticks = 150770
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 129235
+PERF - ListProcessThreads Ticks = 130851
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 138572
+PERF - ListProcessThreads Ticks = 139952
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 181895
+PERF - ListProcessThreads Ticks = 185914
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121676
+PERF - ListProcessThreads Ticks = 123290
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117666
+PERF - ListProcessThreads Ticks = 118868
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119329
+PERF - ListProcessThreads Ticks = 120845
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117088
+PERF - ListProcessThreads Ticks = 118508
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121853
+PERF - ListProcessThreads Ticks = 123160
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 118109
+PERF - ListProcessThreads Ticks = 119827
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 275165
+PERF - ListProcessThreads Ticks = 277458
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 118478
+PERF - ListProcessThreads Ticks = 120025
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 358934
+PERF - ListProcessThreads Ticks = 361599
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 154289
+PERF - ListProcessThreads Ticks = 156732
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120499
+PERF - ListProcessThreads Ticks = 121813
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127880
+PERF - ListProcessThreads Ticks = 129390
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123509
+PERF - ListProcessThreads Ticks = 124950
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 149682
+PERF - ListProcessThreads Ticks = 153330
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 141827
+PERF - ListProcessThreads Ticks = 143038
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126227
+PERF - ListProcessThreads Ticks = 127421
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125553
+PERF - ListProcessThreads Ticks = 127038
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 130559
+PERF - ListProcessThreads Ticks = 132138
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127061
+PERF - ListProcessThreads Ticks = 128217
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126855
+PERF - ListProcessThreads Ticks = 128236
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 132074
+PERF - ListProcessThreads Ticks = 133122
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125746
+PERF - ListProcessThreads Ticks = 127555
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 171282
+PERF - ListProcessThreads Ticks = 174354
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127134
+PERF - ListProcessThreads Ticks = 128518
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 132679
+PERF - ListProcessThreads Ticks = 133983
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 131239
+PERF - ListProcessThreads Ticks = 132687
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - Overlapped call to OnSample
+PERF - GetStackTrace Ticks = 383263
+PERF - ListProcessThreads Ticks = 387159
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119891
+PERF - ListProcessThreads Ticks = 120896
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 267586
+PERF - ListProcessThreads Ticks = 270193
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 145287
+PERF - ListProcessThreads Ticks = 148276
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 225889
+PERF - ListProcessThreads Ticks = 229459
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 132158
+PERF - ListProcessThreads Ticks = 133291
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127950
+PERF - ListProcessThreads Ticks = 129315
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127840
+PERF - ListProcessThreads Ticks = 129140
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117324
+PERF - ListProcessThreads Ticks = 118467
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 293878
+PERF - ListProcessThreads Ticks = 296695
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117915
+PERF - ListProcessThreads Ticks = 119061
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - Overlapped call to OnSample
+PERF - GetStackTrace Ticks = 388902
+PERF - ListProcessThreads Ticks = 394409
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121244
+PERF - ListProcessThreads Ticks = 122444
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 155111
+PERF - ListProcessThreads Ticks = 158927
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 149919
+PERF - ListProcessThreads Ticks = 153726
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120773
+PERF - ListProcessThreads Ticks = 122587
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 133546
+PERF - ListProcessThreads Ticks = 135118
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125513
+PERF - ListProcessThreads Ticks = 128082
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125073
+PERF - ListProcessThreads Ticks = 126602
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 176418
+PERF - ListProcessThreads Ticks = 178839
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 137935
+PERF - ListProcessThreads Ticks = 139639
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128669
+PERF - ListProcessThreads Ticks = 130706
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126241
+PERF - ListProcessThreads Ticks = 127729
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128185
+PERF - ListProcessThreads Ticks = 129394
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124489
+PERF - ListProcessThreads Ticks = 125262
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 164469
+PERF - ListProcessThreads Ticks = 167642
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126837
+PERF - ListProcessThreads Ticks = 128791
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 144216
+PERF - ListProcessThreads Ticks = 145610
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 115933
+PERF - ListProcessThreads Ticks = 117111
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 115439
+PERF - ListProcessThreads Ticks = 116692
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116269
+PERF - ListProcessThreads Ticks = 118805
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116448
+PERF - ListProcessThreads Ticks = 117469
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 114835
+PERF - ListProcessThreads Ticks = 116661
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 163716
+PERF - ListProcessThreads Ticks = 167192
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122503
+PERF - ListProcessThreads Ticks = 123704
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 163617
+PERF - ListProcessThreads Ticks = 166566
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 384208
+PERF - ListProcessThreads Ticks = 387358
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122274
+PERF - ListProcessThreads Ticks = 123390
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122982
+PERF - ListProcessThreads Ticks = 124815
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 129078
+PERF - ListProcessThreads Ticks = 130939
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 271648
+PERF - ListProcessThreads Ticks = 275386
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 158752
+PERF - ListProcessThreads Ticks = 161584
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 130335
+PERF - ListProcessThreads Ticks = 131644
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 134354
+PERF - ListProcessThreads Ticks = 137008
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124165
+PERF - ListProcessThreads Ticks = 125536
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124729
+PERF - ListProcessThreads Ticks = 126199
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127251
+PERF - ListProcessThreads Ticks = 129297
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125762
+PERF - ListProcessThreads Ticks = 126845
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 241826
+PERF - ListProcessThreads Ticks = 243779
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124396
+PERF - ListProcessThreads Ticks = 125358
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 130372
+PERF - ListProcessThreads Ticks = 131619
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 135068
+PERF - ListProcessThreads Ticks = 136542
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 154041
+PERF - ListProcessThreads Ticks = 156871
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126326
+PERF - ListProcessThreads Ticks = 128161
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123422
+PERF - ListProcessThreads Ticks = 124519
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117800
+PERF - ListProcessThreads Ticks = 118888
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 268711
+PERF - ListProcessThreads Ticks = 271752
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 417223
+PERF - ListProcessThreads Ticks = 419792
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122531
+PERF - ListProcessThreads Ticks = 123617
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116189
+PERF - ListProcessThreads Ticks = 117832
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117395
+PERF - ListProcessThreads Ticks = 119168
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119054
+PERF - ListProcessThreads Ticks = 120642
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 145467
+PERF - ListProcessThreads Ticks = 149164
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120055
+PERF - ListProcessThreads Ticks = 121914
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119028
+PERF - ListProcessThreads Ticks = 120340
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 350690
+PERF - ListProcessThreads Ticks = 354507
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 132150
+PERF - ListProcessThreads Ticks = 134335
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119530
+PERF - ListProcessThreads Ticks = 120705
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 147671
+PERF - ListProcessThreads Ticks = 149589
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 199865
+PERF - ListProcessThreads Ticks = 201505
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 137346
+PERF - ListProcessThreads Ticks = 138661
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128186
+PERF - ListProcessThreads Ticks = 130076
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124180
+PERF - ListProcessThreads Ticks = 125417
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124452
+PERF - ListProcessThreads Ticks = 125528
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 130681
+PERF - ListProcessThreads Ticks = 132718
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127092
+PERF - ListProcessThreads Ticks = 129120
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 129135
+PERF - ListProcessThreads Ticks = 130336
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 129247
+PERF - ListProcessThreads Ticks = 130934
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126573
+PERF - ListProcessThreads Ticks = 128719
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128192
+PERF - ListProcessThreads Ticks = 129627
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 142162
+PERF - ListProcessThreads Ticks = 144535
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 133050
+PERF - ListProcessThreads Ticks = 134684
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 147790
+PERF - ListProcessThreads Ticks = 149174
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117622
+PERF - ListProcessThreads Ticks = 118545
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117002
+PERF - ListProcessThreads Ticks = 118325
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119277
+PERF - ListProcessThreads Ticks = 120935
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117098
+PERF - ListProcessThreads Ticks = 118542
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 117259
+PERF - ListProcessThreads Ticks = 119103
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121220
+PERF - ListProcessThreads Ticks = 122384
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121209
+PERF - ListProcessThreads Ticks = 122645
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120224
+PERF - ListProcessThreads Ticks = 122243
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125161
+PERF - ListProcessThreads Ticks = 126810
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121270
+PERF - ListProcessThreads Ticks = 123288
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120357
+PERF - ListProcessThreads Ticks = 121708
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 167680
+PERF - ListProcessThreads Ticks = 169728
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 163680
+PERF - ListProcessThreads Ticks = 164980
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 182528
+PERF - ListProcessThreads Ticks = 184286
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 195196
+PERF - ListProcessThreads Ticks = 196991
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 186385
+PERF - ListProcessThreads Ticks = 187858
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122078
+PERF - ListProcessThreads Ticks = 123308
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 132698
+PERF - ListProcessThreads Ticks = 134565
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 131224
+PERF - ListProcessThreads Ticks = 132621
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128751
+PERF - ListProcessThreads Ticks = 130140
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 133009
+PERF - ListProcessThreads Ticks = 134939
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 140926
+PERF - ListProcessThreads Ticks = 142270
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125245
+PERF - ListProcessThreads Ticks = 126494
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123574
+PERF - ListProcessThreads Ticks = 124648
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128633
+PERF - ListProcessThreads Ticks = 129817
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128005
+PERF - ListProcessThreads Ticks = 129062
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 114374
+PERF - ListProcessThreads Ticks = 116118
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 116977
+PERF - ListProcessThreads Ticks = 118532
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 179769
+PERF - ListProcessThreads Ticks = 181237
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123477
+PERF - ListProcessThreads Ticks = 124934
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 199881
+PERF - ListProcessThreads Ticks = 201866
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127176
+PERF - ListProcessThreads Ticks = 128466
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 136335
+PERF - ListProcessThreads Ticks = 138116
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 150981
+PERF - ListProcessThreads Ticks = 152391
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 148644
+PERF - ListProcessThreads Ticks = 150902
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122798
+PERF - ListProcessThreads Ticks = 124961
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 177461
+PERF - ListProcessThreads Ticks = 179217
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 211050
+PERF - ListProcessThreads Ticks = 212690
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 219605
+PERF - ListProcessThreads Ticks = 221280
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 198045
+PERF - ListProcessThreads Ticks = 199663
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 141604
+PERF - ListProcessThreads Ticks = 143226
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 143876
+PERF - ListProcessThreads Ticks = 145322
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 142263
+PERF - ListProcessThreads Ticks = 143864
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 162371
+PERF - ListProcessThreads Ticks = 164124
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 190748
+PERF - ListProcessThreads Ticks = 192423
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 139285
+PERF - ListProcessThreads Ticks = 140604
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 148723
+PERF - ListProcessThreads Ticks = 150271
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124802
+PERF - ListProcessThreads Ticks = 126040
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 151578
+PERF - ListProcessThreads Ticks = 153795
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 167900
+PERF - ListProcessThreads Ticks = 169325
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 130688
+PERF - ListProcessThreads Ticks = 132695
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125615
+PERF - ListProcessThreads Ticks = 127423
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 192944
+PERF - ListProcessThreads Ticks = 194571
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125182
+PERF - ListProcessThreads Ticks = 126742
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 138840
+PERF - ListProcessThreads Ticks = 140169
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 133745
+PERF - ListProcessThreads Ticks = 135234
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 135866
+PERF - ListProcessThreads Ticks = 137766
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 115996
+PERF - ListProcessThreads Ticks = 117174
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 133768
+PERF - ListProcessThreads Ticks = 135172
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 188143
+PERF - ListProcessThreads Ticks = 189856
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 131206
+PERF - ListProcessThreads Ticks = 132885
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 146031
+PERF - ListProcessThreads Ticks = 147978
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 157096
+PERF - ListProcessThreads Ticks = 158821
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121670
+PERF - ListProcessThreads Ticks = 122854
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 178927
+PERF - ListProcessThreads Ticks = 180456
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119482
+PERF - ListProcessThreads Ticks = 121161
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 166131
+PERF - ListProcessThreads Ticks = 168004
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 148678
+PERF - ListProcessThreads Ticks = 150188
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 160990
+PERF - ListProcessThreads Ticks = 162700
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 142835
+PERF - ListProcessThreads Ticks = 144170
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 146207
+PERF - ListProcessThreads Ticks = 147942
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 121748
+PERF - ListProcessThreads Ticks = 123575
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 176745
+PERF - ListProcessThreads Ticks = 178085
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 129432
+PERF - ListProcessThreads Ticks = 131555
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 145050
+PERF - ListProcessThreads Ticks = 146678
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 130471
+PERF - ListProcessThreads Ticks = 131905
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 145121
+PERF - ListProcessThreads Ticks = 146561
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 131300
+PERF - ListProcessThreads Ticks = 132840
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 141661
+PERF - ListProcessThreads Ticks = 143744
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 133262
+PERF - ListProcessThreads Ticks = 135048
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120763
+PERF - ListProcessThreads Ticks = 123155
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 181805
+PERF - ListProcessThreads Ticks = 184129
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124102
+PERF - ListProcessThreads Ticks = 125320
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 145064
+PERF - ListProcessThreads Ticks = 146531
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128687
+PERF - ListProcessThreads Ticks = 131003
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 129046
+PERF - ListProcessThreads Ticks = 130737
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124660
+PERF - ListProcessThreads Ticks = 126068
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 135444
+PERF - ListProcessThreads Ticks = 136699
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125629
+PERF - ListProcessThreads Ticks = 126693
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120510
+PERF - ListProcessThreads Ticks = 122826
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119650
+PERF - ListProcessThreads Ticks = 121583
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123853
+PERF - ListProcessThreads Ticks = 125574
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126488
+PERF - ListProcessThreads Ticks = 128041
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 129074
+PERF - ListProcessThreads Ticks = 130384
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125638
+PERF - ListProcessThreads Ticks = 127496
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122687
+PERF - ListProcessThreads Ticks = 123977
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119215
+PERF - ListProcessThreads Ticks = 121045
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 132641
+PERF - ListProcessThreads Ticks = 134639
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 127870
+PERF - ListProcessThreads Ticks = 129203
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 123225
+PERF - ListProcessThreads Ticks = 124392
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122845
+PERF - ListProcessThreads Ticks = 124326
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125825
+PERF - ListProcessThreads Ticks = 127589
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 133293
+PERF - ListProcessThreads Ticks = 134747
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 137279
+PERF - ListProcessThreads Ticks = 139125
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126518
+PERF - ListProcessThreads Ticks = 128607
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 131460
+PERF - ListProcessThreads Ticks = 133197
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128551
+PERF - ListProcessThreads Ticks = 130040
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 119196
+PERF - ListProcessThreads Ticks = 120671
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 114541
+PERF - ListProcessThreads Ticks = 116120
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 122494
+PERF - ListProcessThreads Ticks = 124161
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 120495
+PERF - ListProcessThreads Ticks = 122523
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 126611
+PERF - ListProcessThreads Ticks = 128450
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124088
+PERF - ListProcessThreads Ticks = 125559
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 140228
+PERF - ListProcessThreads Ticks = 141710
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 136355
+PERF - ListProcessThreads Ticks = 138138
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 183770
+PERF - ListProcessThreads Ticks = 185363
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 161623
+PERF - ListProcessThreads Ticks = 163159
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 136357
+PERF - ListProcessThreads Ticks = 137807
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 158103
+PERF - ListProcessThreads Ticks = 159735
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 153454
+PERF - ListProcessThreads Ticks = 155249
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 145783
+PERF - ListProcessThreads Ticks = 147096
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 138714
+PERF - ListProcessThreads Ticks = 140400
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 139467
+PERF - ListProcessThreads Ticks = 141352
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 144042
+PERF - ListProcessThreads Ticks = 145859
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 134056
+PERF - ListProcessThreads Ticks = 135682
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 125485
+PERF - ListProcessThreads Ticks = 127416
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 170954
+PERF - ListProcessThreads Ticks = 173144
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 124452
+PERF - ListProcessThreads Ticks = 126392
+----- BEGIN CALLSTACK -----
+ThreadId = 0x51840
+g_frames.size()==12 g_nativeFrames.size()==29
+PERF - GetStackTrace Ticks = 128508
+PERF - ListProcessThreads Ticks = 129660
+----- BEGIN CALLSTACK -----
+Thre
