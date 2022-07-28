@@ -1,1 +1,4 @@
-﻿  DiagProfiler.vcxproj -> D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\Debug\DiagProfiler.dll
+﻿  NativeStackwalker.cpp
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\sdk\inc\dbghelp.h(1548,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-hdBase>' when no variable is declared
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\sdk\inc\dbghelp.h(3065,2): warning C4091: 'typedef ': ignored on left of '<unnamed-enum-sfImage>' when no variable is declared
+  DiagProfiler.vcxproj -> D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\Debug\DiagProfiler.dll
