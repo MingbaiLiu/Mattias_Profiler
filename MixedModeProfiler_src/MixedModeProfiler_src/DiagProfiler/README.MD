@@ -3,9 +3,10 @@ this project is from https://www.codeproject.com/Articles/384514/Building-a-Mixe
 Hi, Mattias. Thanks for your help. I have tried your provided ways. But it still not works for me.
 
 the real callstack of CppCliApp.exe should show as follow:
-myreadline
-nativeA
-managedAB
+
+myreadline  
+nativeA  
+managedAB 
 main
 
 issuse:
