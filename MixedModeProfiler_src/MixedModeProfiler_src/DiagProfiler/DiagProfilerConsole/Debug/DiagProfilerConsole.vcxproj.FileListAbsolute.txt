@@ -1,0 +1,3 @@
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\DiagProfilerConsole\Debug\DiagProfilerConsole.vcxproj.AssemblyReference.cache
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\DiagProfilerConsole\Debug\DiagProfilerConsole.vcxproj.SuggestedBindingRedirects.cache
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\DiagProfilerConsole\Debug\DiagProfilerConsole.vcxproj.CopyComplete

@@ -1,0 +1,4 @@
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\SampleApps\CppCliApp\Debug\CppCliApp.vcxproj.AssemblyReference.cache
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\SampleApps\CppCliApp\Debug\CppCliApp.vcxproj.SuggestedBindingRedirects.cache
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\SampleApps\CppCliApp\Debug\CppCliApp.vcxproj.AssemblyReference.cache
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\SampleApps\CppCliApp\Debug\CppCliApp.vcxproj.SuggestedBindingRedirects.cache

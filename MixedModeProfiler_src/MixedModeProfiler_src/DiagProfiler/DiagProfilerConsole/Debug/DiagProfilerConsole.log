@@ -1,0 +1,22 @@
+﻿  DiagProfilerConsole.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\include\xstring(2603,27): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\DiagProfilerConsole\DiagProfilerConsole.cpp(50): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\DiagProfilerConsole\DiagProfilerConsole.cpp(50): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  DiagProfilerConsole.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  DiagProfilerConsole.vcxproj -> D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\Debug\DiagProfilerConsole.exe

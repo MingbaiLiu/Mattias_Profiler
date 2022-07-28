@@ -1,0 +1,47 @@
+// ----------------------------------------------------------------------------------------------
+// Copyright (c) Mattias Högström.
+// ----------------------------------------------------------------------------------------------
+// This source code is subject to terms and conditions of the Microsoft Public License. A 
+// copy of the license can be found in the License.html file at the root of this distribution. 
+// If you cannot locate the Microsoft Public License, please send an email to 
+// dlr@microsoft.com. By using this source code in any fashion, you are agreeing to be bound 
+// by the terms of the Microsoft Public License.
+// ----------------------------------------------------------------------------------------------
+// You must not remove this notice, or any other, from this software.
+// ----------------------------------------------------------------------------------------------
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+object,
+uuid(53BBE57B-389D-428C-AB6F-79D7E7526EE0),
+oleautomation,
+helpstring("interface IDiagProfiler is used for implementing a small profiler"),
+]
+interface IDiagProfiler : IUnknown
+{
+	// No additional API exported
+    HRESULT SetSamplingRate([in] int milliSeconds);
+	HRESULT GetSamplingRate([out] int* samplingRate);
+	HRESULT SetNoOfSamples([in] int noSamples);
+	HRESULT GetNoOfSamples([out] int* noSamples);
+	HRESULT StartSampling(void);
+	HRESULT StopSampling(void);
+};
+
+[
+uuid(3F2A7E7F-A2DC-4119-889B-A258384F5AAB),
+version(1.0),
+helpstring("Profiler Type Library")
+]
+library DiagProfilerLib
+{
+    importlib("stdole32.tlb");
+//	importlib("stdole.tlb"); 
+	[uuid(C6DBEE4B-017D-43AC-8689-3B107A6104EF)]
+	coclass DiagProfiler
+    {
+		[default] interface IDiagProfiler;
+	};
+}
