@@ -1,13 +1,16 @@
 REM Microsoft CORProfilerAPI
 SET COR_ENABLE_PROFILING=1
 SET COR_PROFILER={C6DBEE4B-017D-43AC-8689-3B107A6104EF}
-SET COR_PROFILER_PATH=C:\Source\MixedModeProfiler\MixedModeProfiler_demo\DiagProfiler.dll
+SET COR_PROFILER_PATH=D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\Debug\DiagProfiler.dll
 
 REM CLR Option
 SET COMPLUS_Version=v4.0.30319
 
 REM DiagProfiler
-SET DIAG_PRF_SYMBOLPATH=SRV*c:\symbols*http://msdl.microsoft.com/download/symbols;
-SET DIAG_PRF_DEBUGTRACE=C:\temp\diag_debugtrace.txt
-SET DIAG_PRF_STACKTRACE=C:\temp\diag_stacktrace.txt
+SET DIAG_PRF_SYMBOLPATH=SRV*c:\symbols*http://msdl.microsoft.com/download/symbols;D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\DiagProfiler\Debug;D:\junFiles\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\IProfiler\IProfiler\MixedModeProfiler_src\MixedModeProfiler_src\SampleApps\CppCliApp\Debug;
+SET DIAG_PRF_DEBUGTRACE=diag_debugtrace.txt
+SET DIAG_PRF_STACKTRACE=diag_stacktrace.txt
+SET DIAG_PRF_VERBOSE=verbose.txt
 SET DIAG_PRF_ONLY_MANAGED_THREADS=1
+START windbg.exe
+@REM START CppCliApp.exe
